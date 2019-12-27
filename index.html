@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c6fd8dbab2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="stil.css">
+    <title>CSS Grid page</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!--Navigation-->
+        <nav>
+            <div class="content">
+                <h1>CssGrid</h1>
+                <div class="links">
+                    <a href="#">Naslovnica</a>
+                    <a href="#">Info</a>
+                    <a href="#">Proizvodi</a>
+                    <a href="#">Kontakt</a>
+                </div>
+                <div class="menu" onclick="menu()">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+             </div>
+            <div class="dropdown">
+                <a href="#">Naslovnica</a>
+                <a href="#">Info</a>
+                <a href="#">Proizvodi</a>
+                <a href="#">Kontakt</a>
+            </div>
+        </nav>
+
+        <!--Top container-->
+        <section class="top-container">
+            <header class="showcase">
+                <h1>Dobrodošli</h1>
+                <p>Lorem ipsum dolor sit amet consectetur...</p>
+                <a href="#" class="button">O nama</a>
+            </header>
+            <div class="top-box top-box-a">
+                <h4>Usluga 1</h4>
+                <p class="text">...</p>
+                <a href="#" class="button">Kupi</a>
+            </div>
+            <div class="top-box top-box-b">
+                <h4>Usluga 2</h4>
+                <p class="text">...</p>
+                <a href="#" class="button">Kupi</a>
+            </div>
+			<div class="top-box top-box-c">
+                <h4>Usluga 3</h4>
+                <p class="text">...</p>
+                <a href="#" class="button">Kupi</a>
+            </div>
+        </section>
+
+            <!--Boxes section-->
+            <section class="boxes">
+                <div class="box">
+                    <i class="fas fa-comment-dollar fa-4x"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, illum.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fas fa-laptop fa-4x"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, illum.</p>
+                </div>
+                <div class="box">
+                    <i class="far fa-lightbulb fa-4x"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, illum.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-bullhorn fa-4x"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, illum.</p>
+                </div>
+            </section>
+
+           <!--Info-->
+           
+           <section class="info">
+                <img src="images/info.jpg">
+                <div>
+                    <h2>Nešto više o nama</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est facilis odit delectus eaque similique ducimus, eos, dolorem vero, enim perspiciatis mollitia quae repellendus autem aliquid officia qui accusantium laborum libero.</p>
+                    <a href="#" class="button">Saznaj više</a>
+                </div>
+           </section>
+
+        <!--Portfolio-->
+        <section class="portfolio">
+            <img src="https://source.unsplash.com/random/201x200">
+            <img src="https://source.unsplash.com/random/202x200">
+            <img src="https://source.unsplash.com/random/203x200">
+            <img src="https://source.unsplash.com/random/204x200">
+            <img src="https://source.unsplash.com/random/205x200">
+            <img src="https://source.unsplash.com/random/206x200">
+            <img src="https://source.unsplash.com/random/207x200">
+            <img src="https://source.unsplash.com/random/208x200">
+        </section>
+
+        <!--Footer-->
+        <footer>
+            <p>CssGridPage &copy; 2019</p>
+        </footer>
+    </div>
+	
+	<script src="app.js"></script>
+</body>
+</html>
